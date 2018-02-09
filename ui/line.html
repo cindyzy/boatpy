@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width:900px;height:400px;"></div>
+    <div id="main2" style="width: 900px;height:200px;"></div>
+      <div id="main3" style="width: 900px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+		function javatrans_line(num,vis,vis_ref,vis_change_rate,tem,water,vis_sport,newvis)
+		{
+
+        var myChart = echarts.init(document.getElementById('main'));
+var myChart2 = echarts.init(document.getElementById('main2'));
+var myChart3 = echarts.init(document.getElementById('main3'));
+
+        // 指定图表的配置项和数据
+        var option = {
+           title: {
+        text: '实时监测折线图',
+           left: 'center'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['实时黏度','新油黏度','黏度变化率','温度','水分'],
+	bottom:0
+		
+    },
+    
+    xAxis:  {
+        type: 'category',
+        boundaryGap: false,
+        data: num
+    },
+    yAxis: {
+        type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }
+    },
+    series: [
+        {
+            name:'实时黏度',
+            type:'line',
+            data:vis,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+        },
+        {
+            name:'新油黏度',
+            type:'line',
+            data:vis_ref,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+        },
+		 {
+            name:'黏度变化率',
+            type:'line',
+            data:vis_change_rate,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+        },
+		 {
+            name:'温度',
+            type:'line',
+            data:tem,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+        },
+		 {
+            name:'水分',
+            type:'line',
+            data:water,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+        }
+    ]
+        };
+var option3 = {
+   
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['实时黏度','新油黏度','黏度变化率','温度','水分'],
+	bottom:0
+		
+    },
+        grid: [
+                {left: '5%', top: '10%', width: '22%', height: '35%'},
+        
+        {left:'37%', top: '10%', width: '22%', height: '35%'},
+       
+        {left:'69%', top: '10%', width: '22%', height: '35%'},
+       
+         {left: '5%', top: '55%', width: '22%', height: '35%'},
+       
+        {left: '37%', top: '55%', width: '22%', height: '35%'},
+     
+
+    ],
+    xAxis:[ 
+		{gridIndex: 0,type: 'category',
+        data: num},
+        {gridIndex: 1,type: 'category',
+        data: num},
+        {gridIndex: 2,type: 'category',
+        data: num},
+        {gridIndex: 3,type: 'category',
+        data: num},
+		{gridIndex: 4,type: 'category',
+        data: num},
+      
+		]
+    ,
+    yAxis:[ 
+		{gridIndex: 0,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} cSt'
+        }},
+        {gridIndex: 1,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} cSt'
+        }},
+        {gridIndex: 2,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} %'
+        }},
+        {gridIndex: 3,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} °C'
+        }},
+        {gridIndex: 4,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} ppm'
+        }}
+       
+
+		
+		
+		]
+    ,
+    series: [
+        {
+            name:'实时黏度',
+            type:'line',
+            data:vis,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+			   xAxisIndex: 0,
+            yAxisIndex: 0,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+            
+        },
+        {
+            name:'新油黏度',
+            type:'line',
+            data:vis_ref,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+			   xAxisIndex: 1,
+            yAxisIndex: 1,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+    
+        },
+		 {
+            name:'黏度变化率',
+            type:'line',
+            data:vis_change_rate,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+        xAxisIndex: 2,
+            yAxisIndex:2,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+        },
+		 {
+            name:'温度',
+            type:'line',
+            data:tem,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 3,
+            yAxisIndex: 3,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+        },
+		 {
+            name:'水分',
+            type:'line',
+            data:water,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 4,
+            yAxisIndex: 4,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+        }
+    ]
+        };
+var option2 = {
+   
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['离线实时黏度','离线新油黏度','在线实时黏度','在线新油黏度'],
+	bottom:0
+		
+    },
+        grid: [
+                {left: '5%', top: '10%', width: '40%', height: '70%'},
+        
+        {left:'55%', top: '10%', width: '40%', height: '70%'}
+       
+       
+     
+
+    ],
+    xAxis:[ 
+		{gridIndex: 0,type: 'category',
+        data: num},
+        {gridIndex: 1,type: 'category',
+        data: num},
+		]
+    ,
+    yAxis:[ 
+		{gridIndex: 0,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} cSt'
+        }},
+        {gridIndex: 1,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} cSt'
+        }},
+
+		
+		]
+    ,
+    series: [
+        {
+            name:'离线实时黏度',
+            type:'line',
+            data:vis,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+			   xAxisIndex: 0,
+            yAxisIndex: 0,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+            
+        },
+        {
+            name:'离线新油黏度',
+            type:'line',
+            data:vis_ref,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+			   xAxisIndex: 0,
+            yAxisIndex: 0,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+    
+        },
+		 {
+            name:'在线实时黏度',
+            type:'line',
+            data:vis_sport,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+        xAxisIndex: 1,
+            yAxisIndex:1,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+        },
+		 {
+            name:'在线新油黏度',
+            type:'line',
+            data:newvis,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 1,
+            yAxisIndex: 1,
+						label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+        },
+
+    ]
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        // 使用刚指定的配置项和数据显示图表。
+        myChart2.setOption(option2);
+         myChart3.setOption(option3);
+		}
+    </script>
+   </body>
+</html>

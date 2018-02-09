@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 900px;height:400px;"></div>
+     <div id="main2" style="width: 900px;height:600px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+		function javatrans_deline(num,Num_grade,dia4,dia6,dia14,dia21,dia38,dia70)
+		{
+        var myChart = echarts.init(document.getElementById('main'));
+var myChart2 = echarts.init(document.getElementById('main2'));
+         var option = {
+           title: {
+        text: '实时监测折线图',
+   left: 'center'
+        
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['磨损烈度等级','[4,6)','[6,14)','[14,21)','[21,38)','[38,70)','[70,∞)'],
+	bottom:0
+		
+    },
+    
+    xAxis:  {
+        type: 'category',
+        boundaryGap: false,
+        data: num
+    },
+    yAxis: {
+        type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }
+    },
+    series: [
+        {
+            name:'磨损烈度等级',
+            type:'line',
+            data:Num_grade,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+            
+        },
+        {
+            name:'[4,6)',
+            type:'line',
+            data:dia4,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+        },
+		 {
+            name:'[6,14)',
+            type:'line',
+            data:dia6,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+     
+        },
+		 {
+            name:'[14,21)',
+            type:'line',
+            data:dia14,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+           
+        },
+		 {
+            name:'[21,38)',
+            type:'line',
+            data:dia21,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+           
+        },
+		{
+            name:'[38,70)',
+            type:'line',
+            data:dia38,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+           
+        },
+		{
+            name:'[70,∞)',
+            type:'line',
+            data:dia70,
+            markPoint: {
+                data: [
+                      {type: 'max', name: '最大值'},
+		      {type: 'min', name: '最小值'}
+                ]
+            },
+    
+           
+        }
+    ]
+        };
+var option2= {
+   
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['磨损烈度等级','[4,6)','[6,14)','[14,21)','[21,38)','[38,70)','[70,∞)'],
+	bottom:0
+		
+    },
+        grid: [
+                {left: '7%', top: '5%', width: '22%', height: '25%'},
+        
+        {left:'39%', top: '5%', width: '22%', height: '25%'},
+       
+        {left:'71%', top: '5%', width: '22%', height: '25%'},
+       
+         {left: '7%', top: '35%', width: '22%', height: '25%'},
+       
+        {left: '39%', top: '35%', width: '22%', height: '25%'},
+      
+        {left: '71%', top: '35%', width: '22%', height: '25%'},
+        {left: '7%', top: '66%', width: '22%', height: '25%'},
+     
+
+    ],
+    xAxis:[ 
+		{gridIndex: 0,type: 'category',
+        data: num},
+        {gridIndex: 1,type: 'category',
+        data: num},
+        {gridIndex: 2,type: 'category',
+        data: num},
+        {gridIndex: 3,type: 'category',
+        data: num},
+		{gridIndex: 4,type: 'category',
+        data: num},
+        {gridIndex: 5,type: 'category',
+        data: num},
+        {gridIndex: 6,type: 'category',
+        data: num},
+       
+
+		]
+    ,
+    yAxis:[ 
+		{gridIndex: 0,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+        {gridIndex: 1,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+        {gridIndex: 2,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+        {gridIndex: 3,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+        {gridIndex: 4,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+        {gridIndex: 5,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+        {gridIndex: 6,
+		type: 'value',
+        axisLabel: {
+            formatter: '{value} '
+        }},
+       
+
+		
+		
+		]
+    ,
+    series: [
+       
+		 {
+            name:'磨损烈度等级',
+            type:'line',
+            data:Num_grade,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 0,
+            yAxisIndex: 0,
+        },
+		 {
+            name:'[4,6)',
+            type:'line',
+            data:dia4,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 1,
+            yAxisIndex: 1,
+        },
+		 {
+            name:'[6,14)',
+            type:'line',
+            data:dia6,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 2,
+            yAxisIndex: 2,
+        },
+		 {
+            name:'[14,21)',
+            type:'line',
+            data:dia14,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+               xAxisIndex: 3,
+            yAxisIndex: 3,
+        },
+		 {
+            name:'[21,38)',
+            type:'line',
+            data:dia21,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 4,
+            yAxisIndex: 4,
+        },
+		 {
+            name:'[38,70)',
+            type:'line',
+            data:dia38,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 5,
+            yAxisIndex: 5,
+        },
+		 {
+            name:'[70,∞)',
+            type:'line',
+            data:dia70,
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            },
+              xAxisIndex: 6,
+            yAxisIndex: 6,
+        }
+    ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+		myChart2.setOption(option2);
+		}
+    </script>
+    </body>
+</html>

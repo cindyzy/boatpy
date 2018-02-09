@@ -1,0 +1,782 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>标题文档</title>
+
+</head>
+ 
+
+	
+   <body>
+
+ 
+   <table width="600" border="0">
+     <tr>
+       
+       <td><div id="bar" style="height:400px;width: 800px"></div></td>
+       <td><div id="tem" style="height:400px;width: 100px"></div></td>
+     </tr>
+	<tr>
+       <td colspan="2"><div id="gauge" style="height:200px;width: 800px"> </div></td>
+     </tr>
+   </table>
+
+    <!-- ECharts单文件引入 -->
+     <script src="echarts.min.js"></script>
+
+   <script type="text/javascript">
+        // 路径配置
+		
+
+
+				
+				function javatrans_bar(Num_4_6,Num_6_14,Num_14_21,Num_21_38,Num_38_70,Num_70_up,Num_grade_Warn,Num_grade_seriouswarn,Num_grade_max,Num_grade_min)
+		{
+/*        require.config({
+            paths: {
+                echarts: 'build/dist'
+            }
+        });
+        
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/bar',
+
+            ],
+            function (ec) {*/
+                // 基于准备好的dom，初始化echarts图表
+                var barChart = echarts.init(document.getElementById('bar'),'macarons'); 
+              
+				//var gaugeChart = ec.init(document.getElementById('gauge'),'macarons'); 
+				var Num_4_6_grade,Num_6_14_grade,Num_14_21_grade,Num_21_38_grade,Num_38_70_grade,Num_70_up_grade;
+ 										if(Num_4_6==0)
+                                       {
+                                           Num_4_6_grade=0;
+                                       }
+                                       else if(Num_4_6==1)
+                                       {
+                                           Num_4_6_grade=1;
+                                       }
+                                       else if(Num_4_6==2)
+                                       {
+                                           Num_4_6_grade=2;
+                                       }
+                                       else if(Num_4_6<=4)
+                                       {
+                                           Num_4_6_grade=3;
+                                       }
+                                       else if(Num_4_6<=7)
+                                       {
+                                           Num_4_6_grade=4;
+                                       }else if(Num_4_6<=15)
+                                       {
+                                           Num_4_6_grade=5;
+                                       }else if(Num_4_6<=30)
+                                       {
+                                           Num_4_6_grade=6;
+                                       }else if(Num_4_6<=60)
+                                       {
+                                           Num_4_6_grade=7;
+                                       }else if(Num_4_6<=119)
+                                       {
+                                           Num_4_6_grade=8;
+                                       }else if(Num_4_6<=239)
+                                       {
+                                           Num_4_6_grade=9;
+                                       }else if(Num_4_6<=477)
+                                       {
+                                           Num_4_6_grade=10;
+                                       }else if(Num_4_6<=954)
+                                       {
+                                           Num_4_6_grade=11;
+                                       }else if(Num_4_6<=1909)
+                                       {
+                                           Num_4_6_grade=12;
+                                       }else if(Num_4_6<=3817)
+                                       {
+                                           Num_4_6_grade=13;
+                                       }else if(Num_4_6<=7634)
+                                       {
+                                           Num_4_6_grade=14;
+                                       }else if(Num_4_6<=15269)
+                                       {
+                                           Num_4_6_grade=15;
+                                       }else if(Num_4_6<=30538)
+                                       {
+                                           Num_4_6_grade=16;
+                                       }else if(Num_4_6<=61076)
+                                       {
+                                           Num_4_6_grade=17;
+                                       }else if(Num_4_6<=122151)
+                                       {
+                                           Num_4_6_grade=18;
+                                       }else if(Num_4_6<=244302)
+                                       {
+                                           Num_4_6_grade=19;
+                                       }else if(Num_4_6<=488604)
+                                       {
+                                           Num_4_6_grade=20;
+                                       }
+
+                                       if(Num_6_14<1)
+                                       {
+                                           Num_6_14_grade=0;
+                                       }
+                                       else if(Num_6_14==1)
+                                       {
+                                           Num_6_14_grade=2;
+                                       }
+                                       else if(Num_6_14<=2)
+                                       {
+                                           Num_6_14_grade=3;
+                                       }
+                                       else if(Num_6_14<=4)
+                                       {
+                                           Num_6_14_grade=4;
+                                       }else if(Num_6_14<=8)
+                                       {
+                                           Num_6_14_grade=5;
+                                       }else if(Num_6_14<=16)
+                                       {
+                                           Num_6_14_grade=6;
+                                       }else if(Num_6_14<=32)
+                                       {
+                                           Num_6_14_grade=7;
+                                       }else if(Num_6_14<=64)
+                                       {
+                                           Num_6_14_grade=8;
+                                       }else if(Num_6_14<=128)
+                                       {
+                                           Num_6_14_grade=9;
+                                       }else if(Num_6_14<=256)
+                                       {
+                                           Num_6_14_grade=10;
+                                       }else if(Num_6_14<=512)
+                                       {
+                                           Num_6_14_grade=11;
+                                       }else if(Num_6_14<=1024)
+                                       {
+                                           Num_6_14_grade=12;
+                                       }else if(Num_6_14<=2048)
+                                       {
+                                           Num_6_14_grade=13;
+                                       }else if(Num_6_14<=4096)
+                                       {
+                                           Num_6_14_grade=14;
+                                       }else if(Num_6_14<=8192)
+                                       {
+                                           Num_6_14_grade=15;
+                                       }else if(Num_6_14<=16384)
+                                       {
+                                           Num_6_14_grade=16;
+                                       }else if(Num_6_14<=32768)
+                                       {
+                                           Num_6_14_grade=17;
+                                       }else if(Num_6_14<=65536)
+                                       {
+                                           Num_6_14_grade=18;
+                                       }else if(Num_6_14<=131072)
+                                       {
+                                           Num_6_14_grade=19;
+                                       }else if(Num_6_14<=262144)
+                                       {
+                                           Num_6_14_grade=20;
+                                       }
+
+                                       if(Num_14_21<1)
+                                       {
+                                           Num_14_21_grade=0;
+                                       }
+                                       else if(Num_14_21==1)
+                                       {
+                                           Num_14_21_grade=4;
+                                       }else if(Num_14_21<=2)
+                                       {
+                                           Num_14_21_grade=5;
+                                       }else if(Num_14_21<=3)
+                                       {
+                                           Num_14_21_grade=6;
+                                       }else if(Num_14_21<=6)
+                                       {
+                                           Num_14_21_grade=7;
+                                       }else if(Num_14_21<=11)
+                                       {
+                                           Num_14_21_grade=8;
+                                       }else if(Num_14_21<=22)
+                                       {
+                                           Num_14_21_grade=9;
+                                       }else if(Num_14_21<=45)
+                                       {
+                                           Num_14_21_grade=10;
+                                       }else if(Num_14_21<=89)
+                                       {
+                                           Num_14_21_grade=11;
+                                       }else if(Num_14_21<=178)
+                                       {
+                                           Num_14_21_grade=12;
+                                       }else if(Num_14_21<=356)
+                                       {
+                                           Num_14_21_grade=13;
+                                       }else if(Num_14_21<=713)
+                                       {
+                                           Num_14_21_grade=14;
+                                       }else if(Num_14_21<=1425)
+                                       {
+                                           Num_14_21_grade=15;
+                                       }else if(Num_14_21<=2850)
+                                       {
+                                           Num_14_21_grade=16;
+                                       }else if(Num_14_21<=5700)
+                                       {
+                                           Num_14_21_grade=17;
+                                       }else if(Num_14_21<=11400)
+                                       {
+                                           Num_14_21_grade=18;
+                                       }else if(Num_14_21<=22800)
+                                       {
+                                           Num_14_21_grade=19;
+                                       }else if(Num_14_21<=45600)
+                                       {
+                                           Num_14_21_grade=20;
+                                       }
+
+
+                                       if(Num_21_38<1)
+                                       {
+                                           Num_21_38_grade=0;
+                                       }
+                                       else if(Num_21_38==1)
+                                       {
+                                           Num_21_38_grade=7;
+
+                                       }else if(Num_21_38<=2)
+                                       {
+                                           Num_21_38_grade=8;
+                                       }else if(Num_21_38<=4)
+                                       {
+                                           Num_21_38_grade=9;
+                                       }else if(Num_21_38<=8)
+                                       {
+                                           Num_21_38_grade=10;
+                                       }else if(Num_21_38<=16)
+                                       {
+                                           Num_21_38_grade=11;
+                                       }else if(Num_21_38<=32)
+                                       {
+                                           Num_21_38_grade=12;
+
+                                       }else if(Num_21_38<=63)
+                                       {
+                                           Num_21_38_grade=13;
+                                       }else if(Num_21_38<=127)
+                                       {
+                                           Num_21_38_grade=14;
+                                       }else if(Num_21_38<=253)
+                                       {
+                                           Num_21_38_grade=15;
+                                       }else if(Num_21_38<=506)
+                                       {
+                                           Num_21_38_grade=16;
+                                       }else if(Num_21_38<=1013)
+                                       {
+                                           Num_21_38_grade=17;
+                                       }else if(Num_21_38<=2025)
+                                       {
+                                           Num_21_38_grade=18;
+                                       }else if(Num_21_38<=4050)
+                                       {
+                                           Num_21_38_grade=19;
+                                       }else if(Num_21_38<=8100)
+                                       {
+                                           Num_21_38_grade=20;
+                                       }
+
+
+                                       if(Num_38_70<1)
+                                       {
+                                           Num_38_70_grade=0;
+                                       }
+                                       else if(Num_38_70==1)
+                                       {
+                                           Num_38_70_grade=9;
+
+                                       }else if(Num_38_70<=2)
+                                       {
+                                           Num_38_70_grade=10;
+                                       }else if(Num_38_70<=3)
+                                       {
+                                           Num_38_70_grade=11;
+                                       }else if(Num_38_70<=6)
+                                       {
+                                           Num_38_70_grade=12;
+                                       }else if(Num_38_70<=11)
+                                       {
+                                           Num_38_70_grade=13;
+                                       }else if(Num_38_70<=23)
+                                       {
+                                           Num_38_70_grade=14;
+                                       }else if(Num_38_70<=45)
+                                       {
+                                           Num_38_70_grade=15;
+                                       }else if(Num_38_70<=90)
+                                       {
+                                           Num_38_70_grade=16;
+                                       }else if(Num_38_70<=180)
+                                       {
+                                           Num_38_70_grade=17;
+                                       }else if(Num_38_70<=360)
+                                       {
+                                           Num_38_70_grade=18;
+                                       }else if(Num_38_70<=720)
+                                       {
+                                           Num_38_70_grade=19;
+                                       }else if(Num_38_70<=1440)
+                                       {
+                                           Num_38_70_grade=20;
+                                       }
+
+
+
+                                       if(Num_70_up<1)
+                                       {
+                                           Num_70_up_grade=0;
+                                       }
+                                       else if(Num_70_up==1)
+                                       {
+                                           Num_70_up_grade=12;
+
+                                       }else if(Num_70_up<=2)
+                                       {
+                                           Num_70_up_grade=13;
+                                       }else if(Num_70_up<=4)
+                                       {
+                                           Num_70_up_grade=14;
+                                       }else if(Num_70_up<=8)
+                                       {
+                                           Num_70_up_grade=15;
+                                       }else if(Num_70_up<=19)
+                                       {
+                                           Num_70_up_grade=16;
+                                       }else if(Num_70_up<=32)
+                                       {
+                                           Num_70_up_grade=17;
+                                       }else if(Num_70_up<=64)
+                                       {
+                                           Num_70_up_grade=18;
+                                       }else if(Num_70_up<=128)
+                                       {
+                                           Num_70_up_grade=19;
+                                       }else if(Num_70_up<=256)
+                                       {
+                                           Num_70_up_grade=20;
+                                       }
+                                    //   Num_grade=max[Num_4_6_grade,Num_6_14_grade,Num_14_21_grade,Num_21_38_grade,Num_38_70_grade,Num_70_up_grade];
+
+
+
+
+				
+                var baroption = {
+name:'磨损烈度等级',
+ title: {
+        text: '磨损烈度等级',
+   left: 'center',
+ textStyle:{
+fontFamily:'sans-serif',
+    fontWeight: 'bolder',
+                fontSize: 17
+}
+      
+    },
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+           show:false
+    },
+   
+	
+    calculable : true,
+    xAxis : [
+        {
+            type : 'category',
+            data : ['[4,6)','[6,14)','[14,21)','[21,38)','[38,70)','[70,∞)']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value',
+			  minInterval: 1,
+			  interval:2,
+		max:Num_grade_max,
+		min:Num_grade_min
+        }
+    ],
+ visualMap: {
+            top: 10,
+            right: 10,
+            pieces: [{
+                gt: 0,
+                lte: Num_grade_Warn,
+                color: '#096'
+            }, {
+                gt: Num_grade_Warn,
+                lte: Num_grade_seriouswarn,
+                color: '#ffde33'
+            }, {
+                gt: Num_grade_seriouswarn,
+                color: '#cc0033'
+            }],
+            outOfRange: {
+                color: '#999'
+            }
+        },
+    series : [
+        {
+            name:'区间等级',
+            type:'bar',
+			data:[Num_4_6_grade,Num_6_14_grade,Num_14_21_grade,Num_21_38_grade,Num_38_70_grade,Num_70_up_grade],
+			label: {
+                normal: {
+                    show: true,
+                    position: 'top',
+					color:'#000000'
+                }
+            },
+			 markPoint: {
+                data: [
+                    {type: 'max', name: '最大值'}
+			
+                ],
+				symbol: 'pin',
+				symbolSize:60,
+				symbolOffset:[0,10]
+            },
+			 markLine : {
+                lineStyle: {
+                    normal: {
+                        type: 'solid',
+						color: 'rgb(0, 128, 0)',
+						width:2
+					}
+                },
+                data : [
+                   
+						{
+                  type: 'max',
+                     
+						label: {
+                            normal: {
+                                position: 'middle',
+                                formatter: '磨损烈度等级'
+                            }
+                        },
+						}
+                      
+                ]
+            },
+			 itemStyle: {
+                normal: {
+                    color: 'rgb(25, 183, 207)'
+                },
+			 }
+           
+
+        },
+			{
+			name:'报警',
+			type:'bar',
+		 xAxisIndex: 0,
+		   barGap: '-100%',
+			 markLine : {
+                lineStyle: {
+                    normal: {
+                        type: 'dashed',
+						color: 'rgb(255, 127, 39)',
+						width:2
+					}
+                },
+                data : [
+                    [{x: '10%',yAxis: Num_grade_Warn  }, {x: '90%',yAxis: Num_grade_Warn,label: {
+                            normal: {
+                                position: 'end',
+                                formatter: '报警值'
+                            }
+                        },}],
+					
+						
+                      
+                ]
+            },
+		},
+		{
+			name:'严重报警值',
+			type:'bar',
+		 xAxisIndex: 0,
+		   barGap: '-100%',
+			 markLine : {
+                lineStyle: {
+                    normal: {
+                        type: 'dashed',
+						color: 'rgb(255, 0, 39)',
+						width:2
+					}
+                },
+                data : [
+                    [{x: '10%',yAxis: Num_grade_seriouswarn  }, {x: '90%',yAxis: Num_grade_seriouswarn,label: {
+                            normal: {
+                                position: 'end',
+                                formatter: '严重报警值'
+                            }
+                        },}],
+					
+						
+                      
+                ]
+            },
+		}
+	
+		
+		
+		
+		
+		]
+				};
+
+
+
+                         
+                //窗体自适应    
+ 				window.onresize = barChart.resize ;  
+				  //   window.onresize = gaugeChart.resize ;   
+                // 为echarts对象加载数据 
+            //    myChart.setOption(option); 
+    //窗体自适应    
+ 			  
+                // 为echarts对象加载数据 
+              
+
+  
+//NewInfoAction();
+ // baroption.series[0].data = [Num_4_6_grade,Num_6_14_grade,Num_14_21_grade,Num_21_38_grade,Num_38_70_grade,Num_70_up_grade];
+
+	 
+                    barChart.setOption(baroption); 
+				//	gaugeChart.setOption(gaugeoption); 
+					
+                }
+	
+            
+//          );
+				
+	//		}
+		
+			function javatrans_gauge(watermin,water_warn,water_serieswarn,watermax,visratemin,visrate_minserieswarn,visrate_minwarn,visrate_maxwarn,visrate_maxserieswarn,visratemax,water,visrate)
+		{
+  /*      require.config({
+            paths: {
+                echarts: 'build/dist'
+            }
+        });
+        
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/gauge'
+            ],
+            function (ec) {*/
+                // 基于准备好的dom，初始化echarts图表
+                 var gaugeChart = echarts.init(document.getElementById('gauge'),'macarons'); 
+                	   var water_w=(water_warn-watermin)/(watermax-watermin);
+	   var water_sw=(water_serieswarn-watermin)/(watermax-watermin);
+	   	   var visrate_iw=(visrate_minwarn-visratemin)/(visratemax-visratemin);
+	   var visrate_isw=(visrate_minserieswarn-visratemin)/(visratemax-visratemin);
+	   var visrate_aw=(visrate_maxwarn-visratemin)/(visratemax-visratemin);
+	   var visrate_asw=(visrate_maxserieswarn-visratemin)/(visratemax-visratemin);
+                var gaugeoption = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%",
+	position:['50%', '50%']
+    },
+    
+    series : [
+        {
+            name:'水分',
+  title : {
+                // 其余属性默认使用全局文本样式，详见TEXTSTYLE
+                fontWeight: 'bolder',
+                fontSize: 17,
+            fontFamily:'sans-serif',
+ offsetCenter:[0,'70%']
+		
+            },
+            type:'gauge',
+			center: ['30%', '50%'], 
+     
+			radius:100,
+			min:watermin,
+			max:watermax,
+			         axisTick: {            // 坐标轴小标记
+                length: 15,        // 属性length控制线长
+                lineStyle: {       // 属性lineStyle控制线条样式
+                    color: 'auto'
+                }
+            },
+			    splitLine: {           // 分隔线
+                length: 20,         // 属性length控制线长
+                lineStyle: {       // 属性lineStyle（详见lineStyle）控制线条样式
+                    color: 'auto'
+                }
+            },
+            data:[{value: water, name: '水分(ppm)'}],
+			detail : {
+				fontSize:20,
+				color:'#000000'
+
+			},
+			 axisLine: {            // 坐标轴线
+                lineStyle: {       // 属性lineStyle控制线条样式
+                    width: 10,
+                    color:[[water_w, '#91c7ae'], [water_sw, 'rgb(255, 201, 14)'], [1, '#c25050']]
+                }
+            },
+        },
+		{
+            name:'黏度变化率',
+			  title : {
+                // 其余属性默认使用全局文本样式，详见TEXTSTYLE
+                fontWeight: 'bolder',
+                fontSize: 17,
+               fontFamily:'sans-serif',
+ 		offsetCenter:[0,'70%']
+		
+            },
+				
+            type:'gauge',
+			center: ['80%', '50%'], 
+          
+			radius:100,
+			min:visratemin,
+			max:visratemax,
+			 axisTick: {            // 坐标轴小标记
+                length: 15,        // 属性length控制线长
+                lineStyle: {       // 属性lineStyle控制线条样式
+                    color: 'auto'
+                }
+            },
+			    splitLine: {           // 分隔线
+                length: 20,         // 属性length控制线长
+                lineStyle: {       // 属性lineStyle（详见lineStyle）控制线条样式
+                    color: 'auto'
+                }
+            },
+            data:[{value:visrate, name: '黏度变化率(%)'}],
+			detail : {
+				fontSize:20,
+				color:'#000000'
+
+			},
+			axisLine: {            // 坐标轴线
+                lineStyle: {       // 属性lineStyle控制线条样式
+                    width: 10,
+                    color:[[visrate_isw, '#c25050'], [visrate_iw, 'rgb(255, 201, 14)'], [visrate_aw, '#91c7ae'], [visrate_asw, 'rgb(255, 201, 14)'], [1, '#c25050']]
+                }
+            },
+        }
+    ]
+};
+
+			
+                    
+                //窗体自适应    
+ 			//	window.onresize = gaugeChart.resize ;      
+                // 为echarts对象加载数据 
+                gaugeChart.setOption(gaugeoption); 
+            }
+     //   );
+	//	}
+	function javatrans_tem(tem)
+		{
+			var data = [tem];
+			 var temChart = echarts.init(document.getElementById('tem'),'macarons'); 
+			temoption = {
+    title: {
+        text: '温度(℃)',
+textStyle:{
+fontFamily:'sans-serif',
+    fontWeight: 'bolder',
+                fontSize: 17
+}
+      
+    },
+    xAxis:  [{
+        show: false,
+        data: []
+    }, {
+        show: false,
+        data: []
+    }],
+      yAxis: {
+        show: false,
+        offset:-20,
+		z:2
+   
+       },
+    series: [{
+        name: '条',
+        type: 'bar',
+        xAxisIndex: 0,
+        data: data,
+
+		  label: {
+                normal: {
+                    show: true,
+                    position:'top',
+					color:'#000000',
+					fontWeight:'bold'
+                }
+            },
+        barWidth: 20,
+        itemStyle: {
+            normal: {
+                color: '#fd4d49',
+            }
+        }
+    }, {
+        name: '框',
+        type: 'bar',
+        xAxisIndex: 1,
+        barGap: '-100%',
+        data: [100],
+        barWidth: 35,
+        itemStyle: {
+            normal: {
+                color: 'none',
+                borderColor: '#fd4d49',
+                borderWidth: 5,
+                barBorderRadius: 30,
+            }
+        }
+    }, {
+        name: '圆',
+        type: 'scatter',
+        data: [0],
+        symbolSize: 54,
+        itemStyle: {
+            normal: {
+                color: '#fd4d49',
+                opacity: 1,
+            }
+        }
+    }]
+};
+   temChart.setOption(temoption); 
+		}
+    </script>
+   
+   </body>
+</html>

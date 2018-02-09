@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>home.png</file>
+        <file>button1.png</file>
+        <file>button2.png</file>
+        <file>system.png</file>
+        <file>system2.png</file>
+        <file>normalsig.png</file>
+        <file>maxsig.png</file>
+        <file>maxmaxsig.png</file>
+        <file>backsig.png</file>
+        <file>button3.png</file>
+        <file>zhuye_shebei_net.jpg</file>
+        <file>start.gif</file>
+        <file>logo.png</file>
+        <file>logo.ico</file>
+    </qresource>
+</RCC>
