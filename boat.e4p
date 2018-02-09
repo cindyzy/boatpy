@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project boat -->
+<!-- Saved: 2018-02-09, 16:13:34 -->
+<!-- Copyright (C) 2018 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>b07680b7dded08c8835c9596e415e047f59dfec6</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>ui/Ui_cameraerror.py</Source>
+    <Source>ui/Ui_historylook.py</Source>
+    <Source>ui/Ui_ismanager.py</Source>
+    <Source>ui/Ui_jiance.py</Source>
+    <Source>ui/Ui_kh.py</Source>
+    <Source>ui/Ui_mainwindow.py</Source>
+    <Source>ui/Ui_picshow.py</Source>
+    <Source>ui/Ui_remoteip.py</Source>
+    <Source>ui/Ui_tcpset.py</Source>
+    <Source>ui/Ui_warn.py</Source>
+    <Source>ui/Ui_warntable.py</Source>
+    <Source>ui/historylook.py</Source>
+    <Source>ui/ismanager.py</Source>
+    <Source>ui/jiance.py</Source>
+    <Source>ui/kh.py</Source>
+    <Source>ui/main.py</Source>
+    <Source>ui/mainwindow.py</Source>
+    <Source>ui/picshow.py</Source>
+    <Source>ui/remoteip.py</Source>
+    <Source>ui/resource_rc.py</Source>
+    <Source>ui/tcpset.py</Source>
+    <Source>ui/warn.py</Source>
+    <Source>ui/warntable.py</Source>
+  </Sources>
+  <Forms>
+    <Form>ui/cameraerror.ui</Form>
+    <Form>ui/historylook.ui</Form>
+    <Form>ui/ismanager.ui</Form>
+    <Form>ui/jiance.ui</Form>
+    <Form>ui/kh.ui</Form>
+    <Form>ui/mainwindow.ui</Form>
+    <Form>ui/picshow.ui</Form>
+    <Form>ui/remoteip.ui</Form>
+    <Form>ui/tcpset.ui</Form>
+    <Form>ui/warn.ui</Form>
+    <Form>ui/warntable.ui</Form>
+  </Forms>
+  <Resources>
+    <Resource>ui/test.qrc</Resource>
+    <Resource>ui/resource.qrc</Resource>
+  </Resources>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>
