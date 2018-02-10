@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project boat -->
+<!-- Saved: 2018-02-09, 16:36:56 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{fdc07aa2-94e0-4a9a-b25a-91e9769e8b7b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/historylook.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b9d2c53c-194e-4d18-a9e5-d9d26296c1cd}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/historylook.py</Filename>
+      <Linenumber>40</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{861cc37e-9f6a-47b0-9d84-2becf37a1360}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/historylook.py</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{249756a0-bbe2-4ecb-ab6b-cf4549a72b3a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/historylook.py</Filename>
+      <Linenumber>56</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{27219dc9-fff7-40d1-8be8-83cb80266607}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/historylook.py</Filename>
+      <Linenumber>64</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c4425a22-d38e-4620-b2d2-a47aa63ec7fa}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/historylook.py</Filename>
+      <Linenumber>72</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{67541cd8-8d5d-49d8-986a-b449eedda44d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/ismanager.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{74aec7b8-78e9-41bf-a29a-654d7896e990}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/ismanager.py</Filename>
+      <Linenumber>40</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{009a9da8-8145-4e68-b703-1d7178ef72ce}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/ismanager.py</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9cde6e15-8e44-4bd3-a254-6f623c0bc7b3}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>38</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e785b340-5cc8-461b-9896-506151155978}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>46</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7173c083-a01d-4eb5-94ab-05289153587c}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>54</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{de878dcc-db2e-4ea8-ad6e-67defd69a9dc}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>62</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e173f4b9-04ba-4121-9530-a09d952059e9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>70</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a1b1f9fc-c709-460a-8481-1494821206d2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>78</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{67a86e78-429c-4b3f-a87a-d2761eda87c6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>86</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{24f0ec4a-4733-47ce-9f70-5b794dbae2ff}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/mainwindow.py</Filename>
+      <Linenumber>94</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8a0879ba-58a9-4007-8d38-67a705f275fb}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/remoteip.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d924e1d8-66ba-4e6e-a298-39f541baa252}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7256a22d-fa78-4b60-86c1-9db249d16c43}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>43</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a8dfcff9-2be6-4973-a661-8a3d834a198e}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>51</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5b06adcb-f39c-45dc-b021-1a19b493ef7f}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>59</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{243b48bd-88bb-40c8-b55e-e559f4899d25}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{812138b5-ce5e-4d72-a129-eeaf64bfd6bc}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>75</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{478149e0-f06b-499e-a039-b1b95ce0c1a1}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>83</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{333aaf2c-1f21-4e22-b4f9-6cbf588a7933}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>91</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{abc68a4e-bc2b-482e-8fd9-dd5d43ea8982}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>99</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9103f346-0919-4c34-9a94-03920082612d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>107</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f670f74a-d758-4d93-bf30-debc81719c17}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>115</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{888c573b-7de2-4467-82f5-199fef446a3c}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>123</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0b5e4f2e-dac7-4356-b5d5-162f5a09e470}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>131</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a7a0fa5e-995f-4151-8c34-a0cd1e879839}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>139</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e8c6bc3d-defa-4269-b42a-9f502134ea3a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>150</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{51627ac7-4703-4611-b574-8829c074d97e}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>161</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8e61f080-1858-430a-8ce3-42274fc5b181}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>172</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1c967034-9f08-42a0-b66f-159fa3d2062d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>183</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3b076338-8a1d-429b-868b-01d8c47aa715}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>191</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{029ef723-0903-47e0-a390-73a24d63ff53}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>199</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{79374698-491f-449d-8fea-06e6852dbc2c}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>207</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1e92a81b-6a70-4a79-a0e7-b0cfcfed9f78}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>215</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0bd9d018-73fd-4b2b-a405-314527630cd2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>223</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a20c1d08-aa77-47bc-98ee-4a3f6254d0e9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>231</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b9e018a4-75cc-472d-bf99-6474e199f309}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>242</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{bae5ad5a-7a1a-4966-a10b-3673703117c4}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>250</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9e8eef30-f276-4412-8e49-5c8dfa8b6a6a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>258</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6a8df858-1476-4bf4-8232-75dd44900d4e}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>266</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{30a5b94f-a87d-4a6a-9ac0-a2f54a431fb0}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>274</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b6392498-6a65-43aa-9096-2edac35aa5c7}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>282</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{12ee6883-2b03-41da-a65d-0b816fd9deae}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>290</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3bf540f9-b143-49ee-b742-770646be97a6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>298</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f0ced74c-4b71-4114-8df7-f66b4e7dd8fb}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>306</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{976aa83e-340b-42d4-a97c-53f6c06a20a8}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>314</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1af12f73-026e-48c4-a93d-b4b2b11131ae}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>325</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1d3a1b13-1c9e-4beb-bc26-d22edcbf71c8}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>333</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{44771d35-24bd-4042-8c3f-25d97eabd374}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>341</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ec6f04a0-323c-4cf7-9a39-712abaa1313b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/tcpset.py</Filename>
+      <Linenumber>349</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{08520faa-ba3b-49b5-bcf8-8f0b04538cc2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/warn.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2b56f746-d0f2-4070-8a20-d59478da60d9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/warntable.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{37159b7b-7471-4bed-8cdb-7d4285fb33ed}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/warntable.py</Filename>
+      <Linenumber>40</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4aee3ee2-8ccf-4415-88a1-fbb86d9e5ec2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-02-09, 16:16:02</Created>
+    <Resource>
+      <Filename>ui/warntable.py</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
